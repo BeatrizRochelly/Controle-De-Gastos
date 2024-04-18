@@ -12,7 +12,7 @@ Aplicação Web Simples de controle de gastos
  <br>
 - Para autenticação do usuário está sendo utilizado NodeJs
 <div style="display: inline_block"><br>
- <img align="center" alt="Logo-NodeJs" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg">
+ <img align="center" alt="Logo-NodeJs" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg">
  </div>
  <br>
 - O desenvolvimento desse projeto foi realizado atraves do Visual Studio Code, que é um editor de código-fonte
