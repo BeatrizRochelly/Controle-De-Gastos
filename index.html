@@ -1,34 +1,34 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Login - Controle De Gastos</title>
-  </head>
-  
-  <body>
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Controle de gastos</title>
+</head>
+
+<body>
     <form>
-      <!--form action="exemplo.html" o action serve para ir para outra página ai seria necessario criar um arquivo exemplo.html-->
-      <div>
-        <div><label>E-mail</label></div>
-        <input type="email" name="E-mail" placeholder="seu@email.com" />
-      </div>
-      <div>
-        <div><label>Senha</label></div>
-        <input type="password" name="Senha" placeholder="Senha" />
-      </div>
-      <div>
-        <button type="button" class="clear">Recuperar senha</button>
-      </div>
-      <div>
-        <button type="button" class="solid">Entrar</button>
-      </div>
-      <div>
-        <button type="button" class="outline">Registrar</button>
-      </div>
+        <div>
+            <div><label>Email</label></div>
+            <input type="email" name="email" id="email" placeholder="seu@email.com" onchange="validateFields()"/>
+        <div>
+            <div><label>Senha</label></div>
+            <input type="password" name="password" id="password" placeholder="Senha" onchange="validateFields()"/>
+        </div>
+        <div>
+            <button type="button" class="clear" id="recover-password-button" disabled="true">Recuperar senha</button>
+        </div>
+        <div>
+            <button type="button" class="solid" id="login-button" disabled="true">Entrar</button>
+        </div>
+        <div>
+            <button type="button" class="outline">Registrar</button>
+        </div>
     </form>
+</body>
 
+<link rel="stylesheet" href="index.css">
 
-  </body>
+<script src="index.js"></script>
+
 </html>
